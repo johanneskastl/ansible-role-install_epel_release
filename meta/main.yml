@@ -1,0 +1,18 @@
+galaxy_info:
+  role_name: 'install_epel_release'
+  author: 'Johannes Kastl'
+  description: 'Install epel-release package on CentOS'
+  company: 'B1 Systems GmbH'
+
+  license: 'BSD-3-Clause'
+
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: CentOS
+    versions:
+    - all
+
+  galaxy_tags: []
+
+dependencies: []
