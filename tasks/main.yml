@@ -3,6 +3,6 @@
 
 - name: "Install epel-release package"
   yum:
-    package: "epel-release"
+    name: "epel-release"
     state: "present"
   when: 'ansible_os_family == "RedHat"'
