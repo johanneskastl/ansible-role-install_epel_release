@@ -1,4 +1,6 @@
-ansible-role-install_epel_release
+![Ansible Lint](https://github.com/johanneskastl/ansible-role-install_epel_release/workflows/Ansible%20Lint/badge.svg)
+
+install_epel_release
 =========
 
 Install epel-release package on CentOS
@@ -23,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: johanneskastl.ansible-role-install_epel_release}
+         - { role: johanneskastl.install_epel_release}
 
 License
 -------
