@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'install_epel_release'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Install epel-release package on CentOS'
   company: 'B1 Systems GmbH'
